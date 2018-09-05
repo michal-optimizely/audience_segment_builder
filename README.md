@@ -3,7 +3,7 @@ Simple implementation of the Custom Analytics ~~Integration~~ Extension that bui
 
 ## Instructions
 
-1. Create a new Custom Anaytics ~~Integration~~ Extension using the code sample provided in this repository and add it to an experiment using audiences you want to use for segmenting the results of your experiments.
+1. Create a new Custom Anaytics ~~Integration~~ Extension using the code sample provided in this repository and add it to an experiment using audiences you want to use for segmenting the results of your experiments. You can either use the provided JSON file or create the extension via the app UI and use the JS file with the code.
 2. Remember you'll need a matching custom attribute for every audience you want to use for segmentation. **Custom attribute API** name should match the **audience ID**.
 3. That's it. Enjoy!
 
