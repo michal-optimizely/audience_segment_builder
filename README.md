@@ -1,5 +1,5 @@
 # Optimizely Audience Segment Builder
-Simple implementation of the Custom Analytics ~~Integration~~ Extension that builds visitors segments based on the selected Optimizely audiences. Custom attributes are used for this.
+Simple implementation of the Custom Analytics ~~Integration~~ Extension that builds visitors segments based on the selected Optimizely audiences. Custom attributes are used for the segmentation.
 
 ## Instructions
 
