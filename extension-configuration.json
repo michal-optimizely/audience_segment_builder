@@ -1,0 +1,9 @@
+{
+  "plugin_type": "analytics_integration",
+  "name": "Audience segment builder",
+  "form_schema": [],
+  "description": "",
+  "options": {
+    "track_layer_decision": "var audiences = optimizely.get('state').getCampaignStates()[campaign.id].audiences;\n\nfor (i = 0; i < audiences.length; i++) { \n  var attr_name = audiences[i].id;\n  var attributes = {};\n  attributes[attr_name] = \"true\";\n  \n  window[\"optimizely\"].push({\n  \t\"type\": \"user\",\n  \t\"attributes\": attributes\n\t});\n  \n  console.log(\"Assigning a Custom Attribute for audience: %c\" + audiences[i].name , \"color: #008394; font-weight: bold;\");\n}"
+  }
+}
